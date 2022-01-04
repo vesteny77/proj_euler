@@ -38,8 +38,8 @@ def mat_fib(n):
 
 
 def closed_form_fib(n):
-    return int((1 / math.sqrt(5)) * ((1 + math.sqrt(5)) / 2) ** n -
-               (1 / math.sqrt(5)) * ((1 - math.sqrt(5)) / 2) ** n)
+    return int(round((1 / math.sqrt(5)) * ((1 + math.sqrt(5)) / 2) ** n -
+                     (1 / math.sqrt(5)) * ((1 - math.sqrt(5)) / 2) ** n))
 
 
 def closed_form_even_fib(n):
